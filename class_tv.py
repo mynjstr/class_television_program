@@ -3,7 +3,7 @@
 class TV:
     def __init__(self, name_of_tv, channel, level_of_volume, on):
         self.TVName = name_of_tv
-        self.channel = channels
+        self.channel = channel
         self.VolumeLevel = level_of_volume
         self.on = on
         
