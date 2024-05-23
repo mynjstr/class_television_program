@@ -1,6 +1,7 @@
 # class tv program
 # Define a class TV with attributes and methods
 class TV:
+    # Initialize the TV object with given parameters
     def __init__(self, name_of_tv, channel, level_of_volume, on):
         self.tvname = name_of_tv
         self.channel = channel
@@ -22,5 +23,5 @@ class TV:
         if self.volumelevel < 1:
             self.volumelevel = 1
             print(f"{self.tvname}: The lowest volume is 1")
-# Initialize the TV object with given parameters
+
 # Define the methods for TV object
