@@ -100,6 +100,9 @@ class TV:
             print(f"{self.tv_name}: The highest volume is 7")
         else:
             print(f"The new volume of {self.tv_name} is {self.volume_level}")
+    
+    def show(self):
+        print(f"{self.tv_name}'s channel is {self.channel} and volume level is {self.volume_Level}")
 
     
 
