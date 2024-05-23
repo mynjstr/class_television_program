@@ -83,7 +83,23 @@ class TV:
         else:
             print(f"The new channel of {self.tv_name} is {self.channel}")
 
-  
+    #Decrease the Volume 
+    def volume_down(self):
+        self.volume_level -= 1
+        if self.volume_Level < 1:
+            self.volume_Level += 1
+            print(f"{self.tv_name}: The lowest volume is 1")
+        else:
+            print(f"The new volume of {self.tv_name} is {self.volume_Level}")
+    
+    #Increase the Volume
+    def volume_up(self):
+        self.volume_level += 1
+        if self.volume_Level > 7:
+            self.volume_level -= 1
+            print(f"{self.tv_name}: The highest volume is 7")
+        else:
+            print(f"The new volume of {self.tv_name} is {self.volume_level}")
 
     
 
