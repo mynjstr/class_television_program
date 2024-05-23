@@ -38,7 +38,10 @@ class TV:
     #Get the current volume level
     def get_volume(self):
         print(f"{self.tv_name} is on {self.volume_level}")
-
+    
+    #Get the current channel
+    def get_channel(self):
+        print(f"{self.tv_name} is on channel {self.channel}")
     
     
 
