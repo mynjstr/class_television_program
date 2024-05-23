@@ -16,12 +16,12 @@ class TV:
             self.channel = 120
             print(f"{self.tv_name}: The channel limit is 120")
 
-        if self.volumelevel > 7:
-            self.channel = 7
+        if self.volume_level > 7:
+            self.volume_level = 7
             print(f"{self.tv_name}: The highest volume is 7")
         
-        if self.volumelevel < 1:
-            self.volumelevel = 1
+        if self.volume_level < 1:
+            self.volume_level = 1
             print(f"{self.tv_name}: The lowest volume is 1")
 
 # Define the methods for TV object
@@ -34,6 +34,10 @@ class TV:
     def turn_on(self):
         self.on = True
         print(f"{self.tv_name} is turned on")
+    
+    #Get the current volume level
+    def get_volume(self):
+        print(f"{self.tv_name} is on {self.volume_level}")
 
     
     
