@@ -67,7 +67,24 @@ class TV:
     def get_channel(self):
         print(f"{self.tv_name} is on channel {self.channel}")
     
-    
+    #Decrease Channel by 1
+    def channel_down_1(self):
+        self.channel -= 1
+        if self.channel < 1:
+            self.channel += 1
+            print(f"{self.tv_name}: Channels lower than 1 are not available")
+
+    #Increase Channel by 1
+    def channel_up_1(self):
+        self.channel += 1
+        if self.channel > 120:
+            self.channel -= 1
+            print(f"{self.tv_name}: The channel limit is 120")
+        else:
+            print(f"The new channel of {self.tv_name} is {self.channel}")
+
+  
+
     
 
 
