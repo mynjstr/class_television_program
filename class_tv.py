@@ -61,11 +61,11 @@ class TV:
         if self.volume_level > 7:
             self.volume_level = 7
             print(f"{self.tv_name}: The highest volume is 7")
-        if self.volume_Level < 1:
-            self.volume_Level = 1
+        if self.volume_level < 1:
+            self.volume_level = 1
             print(f"{self.tv_name}: The lowest volume is 1")
         else:
-            print(f"You successfully set the volume level of {self.tv_name}  to {self.volume_Level}")
+            print(f"You successfully set the volume level of {self.tv_name}  to {self.volume_level}")
     
     #Increase Channel by 1
     def channel_up_1(self):
@@ -86,7 +86,7 @@ class TV:
     #Increase the Volume
     def volume_up(self):
         self.volume_level += 1
-        if self.volume_Level > 7:
+        if self.volume_level > 7:
             self.volume_level -= 1
             print(f"{self.tv_name}: The highest volume is 7")
         else:
@@ -95,14 +95,14 @@ class TV:
     #Decrease the Volume 
     def volume_down(self):
         self.volume_level -= 1
-        if self.volume_Level < 1:
-            self.volume_Level += 1
+        if self.volume_level < 1:
+            self.volume_level += 1
             print(f"{self.tv_name}: The lowest volume is 1")
         else:
-            print(f"The new volume of {self.tv_name} is {self.volume_Level}")
+            print(f"The new volume of {self.tv_name} is {self.volume_level}")
        
     def show(self):
-        print(f"{self.tv_name}'s channel is {self.channel} and volume level is {self.volume_Level}")
+        print(f"{self.tv_name}'s channel is {self.channel} and volume level is {self.volume_level}")
 
     
 

@@ -18,7 +18,6 @@ tv1.volume_down()
 tv1.volume_down()
 tv1.volume_down()
 tv1.volume_down()
-tv1.volume_down()
 
 #tv2
 tv2.turn_on()
@@ -26,7 +25,7 @@ tv2.channel_down_1()
 tv2.set_channel(1)
 tv2.channel_up_1()
 tv2.channel_up_1()
-tv2.volume_down
+tv2.volume_down()
 tv2.volume_down()
 tv2.volume_down()
 tv2.volume_down()
@@ -34,4 +33,4 @@ tv2.volume_down()
 
 #Show the result
 tv1.show()
-tv1.show()
+tv2.show()
