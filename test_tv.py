@@ -31,4 +31,7 @@ tv2.volume_down()
 tv2.volume_down()
 tv2.volume_down()
 tv2.volume_down()
+
 #Show the result
+tv1.show()
+tv1.show()
