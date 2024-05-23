@@ -23,5 +23,19 @@ class TV:
         if self.volumelevel < 1:
             self.volumelevel = 1
             print(f"{self.tvname}: The lowest volume is 1")
-
+            
 # Define the methods for TV object
+    #Turn off the TV    
+    def turnoff(self):
+        self.on = False
+        print(f"{self.tvname} is turned off")
+
+    #Turn on the TV
+    def turnon(self):
+        self.on = True
+        print(f"{self.tvname} is turned on")
+
+    
+    
+
+
